@@ -38,12 +38,12 @@ noButton.addEventListener("click", function() {
     }
 
     // 图片变化（前 5 次变化）
-    if (clickCount === 1) mainImage.src = "images/sun2.jpg"; // 震惊
-    if (clickCount === 2) mainImage.src = "images/sun3.jpg";   // 思考
-    if (clickCount === 3) mainImage.src = "images/sun4.jpg";   // 生气
-    if (clickCount === 4) mainImage.src = "images/sun5.jpg";  // 哭
-    if (clickCount === 5) mainImage.src = "images/sun6.jpg";  // 哭
-    if (clickCount >= 6) mainImage.src = "images/sun7.jpg";  // 之后一直是哭
+    if (clickCount === 1) mainImage.src = "images/shuai2.jpg"; // 震惊
+    if (clickCount === 2) mainImage.src = "images/shuai3.jpg";   // 思考
+    if (clickCount === 3) mainImage.src = "images/shuai4.jpg";   // 生气
+    if (clickCount === 4) mainImage.src = "images/shuai5.jpg";  // 哭
+    if (clickCount === 5) mainImage.src = "images/shuai6.jpg";  // 哭
+    if (clickCount >= 6) mainImage.src = "images/shuai7.jpg";  // 之后一直是哭
 
 });
 
@@ -52,7 +52,7 @@ yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text">前路很难，但我们不再是一个人面对</h1>
-            <img src="images/sun9.jpg" alt="拥抱" class="yes-image">
+            <img src="images/shuai8.jpg" alt="拥抱" class="yes-image">
         </div>
     `;
 
